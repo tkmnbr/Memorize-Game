@@ -1,2 +1,2 @@
 # Memorize-game
-Stanford CS193 ios app development
+Stanford CS193p ios app development
