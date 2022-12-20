@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var emojis = ["🚗", "✈️", "🚝", "🛳", "🚁", "🏎", "🏍", "🚀", "🛰", "🛸", "🛫", "⛵️", "🛶", "⛴", "🚔", "🛺", "🛵", "🚋", "🚑", "🚕", "🚙", "🚒", "🛴", "🚅"]
-    @State var emojiCount = 4
+    @State var emojiCount = 20
     
     var body: some View {
         VStack{
@@ -67,7 +67,7 @@ struct CardView: View{
             if isFaceUp{
                 shape
                     .fill()
-                    .foregroundColor(Color.white)
+                    .foregroundColor(.white)
                 shape
                     .strokeBorder(lineWidth: 3.0)
                 Text(content)
